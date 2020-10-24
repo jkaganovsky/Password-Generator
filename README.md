@@ -31,19 +31,19 @@ In this homework, we have been provided a generic js code where we need to compl
 ## Credits
 Majority of my code I mostly found useful when I went through w3schools.
 1. For loop
-![w3schoolsfor][https://www.w3schools.com/js/js_loop_for.asp]
+https://www.w3schools.com/js/js_loop_for.asp
 1. Math floor and Math random
-![w3schoolsmath][https://www.w3schools.com/js/js_random.asp]
+https://www.w3schools.com/js/js_random.asp
 1. Scope
-![w3schoolsscope][https://www.w3schools.com/js/js_scope.asp]
+https://www.w3schools.com/js/js_scope.asp
 1. Conditions
-![w3schoolsifelse][https://www.w3schools.com/js/js_if_else.asp]
+https://www.w3schools.com/js/js_if_else.asp
 1. Comparison
-![w3schoolscomparison][https://www.w3schools.com/js/js_comparisons.asp]
+https://www.w3schools.com/js/js_comparisons.asp
 1. Booleans
-![w3schoolsboolean][https://www.w3schools.com/js/js_booleans.asp]
+https://www.w3schools.com/js/js_booleans.asp
 1. isNaN
-![mozillaisNaN][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN]
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
 
 
 ## License
