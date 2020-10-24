@@ -6,7 +6,7 @@
 In this homework, we have been provided a generic js code where we need to complete a function to generate random and secured passwords using variable criterias as chosen by the user.
 
 ## Links
-1. [Github Repository](https://jkaganovsky.github.io/Password-Generator/)
+1. [Github Repository](https://github.com/jkaganovsky/Password-Generator)
 1. [Deployed Website](https://jkaganovsky.github.io/Password-Generator/)
 
 
@@ -42,6 +42,8 @@ Majority of my code I mostly found useful when I went through w3schools.
 ![w3schoolscomparison][https://www.w3schools.com/js/js_comparisons.asp]
 1. Booleans
 ![w3schoolsboolean][https://www.w3schools.com/js/js_booleans.asp]
+1. isNaN
+![mozillaisNaN][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN]
 
 
 ## License
