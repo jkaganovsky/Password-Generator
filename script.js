@@ -13,13 +13,14 @@ function generatePassword() {
 
   var length = prompt("How long do you want your password to be?");
 
+  // VERIFIES that the user input for length is a number.
+  if (isNaN(length)) {
+    return("ERROR!!! Please use digits only.");
+  }
+
   // VERIFIES that an appropriate length is provided.
   if (length < 8 || length > 128) {
     return("ERROR!!! Please choose between 8 and 128.");
-  }
-  // VERIFIES that the user input for length is a number.
-  if (Number.isInteger(length) === false) {
-    return("ERROR!!! Please choose a valid number between 8 and 128.");
   }
 
   // COLLECT/CONFIRM user input.
@@ -38,6 +39,7 @@ function generatePassword() {
   var password = "";
   var validCharacters = "";
 
+  // LOG user choices for debugging purposes.
   console.log(length);
   console.log(isNumbers);
   console.log(isSpecialChar);
