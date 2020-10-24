@@ -3,7 +3,7 @@
 ## UW CODING BOOT CAMP HOMEWORK 03
 
 ## Summary
-In this homework, you will find a series of codes generated in the js file in order to complete a function to generate random and secured passwords using variable criterias as chosen by the user.
+In this homework, we have been provided a generic js code where we need to complete a function to generate random and secured passwords using variable criterias as chosen by the user.
 
 ## Links
 1. [Github Repository](https://jkaganovsky.github.io/Password-Generator/)
@@ -11,10 +11,38 @@ In this homework, you will find a series of codes generated in the js file in or
 
 
 ## Content and Description:
-<!-- Add screenshots of js code -->
+1. Original js file
+![original](./assets/images/originaljs.png)
+
+1. Added codes created on js file
+* Here, I created the variables of characters I needed a user to have when generating their random password.
+![criteria](./assets/images/criteria.png)
+* When I inspected the site based only on the provided code, I noticed that the generatePassword syntax is not defined. This is where I started to create a function to define it.
+![generatepwd](./assets/images/generatepwd.png)
+* In order to have a password generated at the click of the generateBtn, a series of prompts are needed. I then needed to include these within the generatePassword function.
+![prompts](./assets/images/prompts.png)
+* As an added feature, I decided to include if statements so that error messages will appear when the user enters incorrect values and/or does not select any of the criterias prompted.
+![false](./assets/images/false.png)
+* After a selection criteria is selected by the user, I used if statements to record the appropriate variables/characters based on the user's responses.
+![ifpwd](./assets/images/ifpwd.png)
+* Once all of the above criteria have been met, this section is where I added a for loop in order to generate the user's requested password with their prompted length and selected validCharacters. And in order for that password to result as a random set of values at the appropriate length, each randomCharacter calculated value is added to the corresponding array within the string of the chosen variable.
+![generate](./assets/images/generate.png)
 
 ## Credits
-<!-- Add links to websites used as reference -->
+Majority of my code I mostly found useful when I went through w3schools.
+1. For loop
+![w3schoolsfor][https://www.w3schools.com/js/js_loop_for.asp]
+1. Math floor and Math random
+![w3schoolsmath][https://www.w3schools.com/js/js_random.asp]
+1. Scope
+![w3schoolsscope][https://www.w3schools.com/js/js_scope.asp]
+1. Conditions
+![w3schoolsifelse][https://www.w3schools.com/js/js_if_else.asp]
+1. Comparison
+![w3schoolscomparison][https://www.w3schools.com/js/js_comparisons.asp]
+1. Booleans
+![w3schoolsboolean][https://www.w3schools.com/js/js_booleans.asp]
+
 
 ## License
 MIT License
