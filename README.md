@@ -1,9 +1,7 @@
 # Password-Generator
 
-## UW CODING BOOT CAMP HOMEWORK 03
-
 ## Summary
-In this homework, we have been provided a generic js code where we need to complete a function to generate random and secured passwords using variable criterias as chosen by the user.
+Given a generic js code where we need to complete a function to generate random and secured passwords using variable criterias as chosen by the user.
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Password-Generator)
